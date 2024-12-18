@@ -1,0 +1,45 @@
+.body{
+    background-color: rgb(51, 26, 175);
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-style: italic;*/
+}
+.main-content{
+    margin-left:220px;
+    padding:20px;
+}
+.sidebar{
+    background-color: white;
+    width:200px;
+    height:100%;
+    left:0;
+    padding:13px;
+    color:rgb(51, 26, 175);
+    position: fixed;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li{
+    margin:15px 0;
+}
+.sidebar ul li a{
+    color:rgb(51, 26, 175);
+    text-decoration: none;
+}
+.sidebar ul li a:hover{
+    text-decoration:underline;
+}
+.boxmodel{
+    padding:15px;
+    background-color: rgb(10, 3, 81);
+    border:5px solid white;
+    margin: 50px;
+    text-align: center;  
+}
